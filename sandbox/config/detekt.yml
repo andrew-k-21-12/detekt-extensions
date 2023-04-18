@@ -1,0 +1,16 @@
+# There is no way to activate a particular processor, it's only possible to exclude them.
+processors:
+  active: true
+  exclude:
+    - DetektProgressListener
+    - KtFileCountProcessor
+    - PackageCountProcessor
+    - ClassCountProcessor
+    - FunctionCountProcessor
+    - PropertyCountProcessor
+    - ProjectComplexityProcessor
+
+# Deprecated - use the processor instead.
+#requirements:
+#  MissingExplicitlyRequiredUsage:
+#    active: true
